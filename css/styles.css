@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #065446;
+  font-size: 4.35rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  color: #065446;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted 8px;
+  border-bottom: none;
+  color: #158467;
+  width: 3%;
+  opacity: 50%;
+}
+
+p {
+  color: #065446;
+  line-height: 2;
+}
+
+h3 {
+  color: #065446;
+}
+
+.top-container {
+  background: rgb(154, 208, 236);
+  background: linear-gradient(180deg, rgba(154, 208, 236, 1) 65%, rgba(255, 255, 255, 1) 100%);
+  position: relative;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.middle-container {}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  background: rgb(154, 208, 236);
+  background: linear-gradient(0deg, rgba(154, 208, 236, 1) 0%, rgba(255, 255, 255, 1) 95%);
+  padding: 30px 0 20px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.laptop {
+  width: 200px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.cooking {
+  width: 200px;
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills {
+  margin-bottom: 150px;
+}
+
+.contact-me {
+  margin: 50px 0 50px 0;
+}
+
+.contact-msg {
+  margin: 30px auto;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #158467;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #065446;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #065446;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-link:visited {
+  color: black;
+}
